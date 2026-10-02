@@ -1,11 +1,30 @@
-# Declarative store Scenes
+# @hathq/ihat-store-scenes
 
-Package: `@hathq/ihat-store-scenes`, immutable development version **0.10.0**.
+Build declarative search and detail views for a HAT store.
 
-`storeScene(store, query)` produces the existing PP SceneProjection, bounded page metadata and exact install actions. The shared trusted renderer owns DOM, forms, accessibility, CSP and lifecycle. Packages cannot supply executable UI, HTML or CSS.
+## What you can do
 
-Scene source revisions describe a disposable catalog read model, not a semantic/control commit or a canonical source-retention lease. The current source catalog is reacquired and exact source/package digests are checked by Hatter before install. Empty input still requires an explicit Submit; rendering never installs.
+- Render bounded page metadata.
+- Attach exact installation-request actions to observed catalog entries.
 
-No semantic, control, installation, credential or renderer authority is transferred
-to iHat. Acceptance and remaining work are recorded in
-`docs/architecture/ihat-online-architecture.json` at the Wonderland root.
+## Current scope
+
+The trusted renderer owns DOM and accessibility. Store packages do not provide arbitrary executable UI or grant installation authority.
+
+Package distribution is not activated by this documentation. Use the checked-in source and the declared dependency versions; published availability must be verified separately.
+
+## Getting started
+
+The manifest currently requires locally supplied package archives: `@hathq/ihat-store-core`, `@hathq/projection-contracts`. These archives are excluded from Git. Obtain the exact approved dependency artifacts before installing; a fresh clone alone is not sufficient. Registry distribution remains pending.
+
+Use the package manager matching the checked-in lockfile and the Node.js version declared in `package.json` or the development configuration. Run from this repository:
+
+```sh
+pnpm install --frozen-lockfile
+```
+
+## Documentation and source
+
+[Usage guide](docs/getting-started.md)
+
+[Implementation and public interfaces](src) · [Contributing](CONTRIBUTING.md) · [Security reporting](SECURITY.md) · [License](LICENSE) · [Attribution notices](NOTICE)
