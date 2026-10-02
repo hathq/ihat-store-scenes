@@ -1,0 +1,47 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@hathq/ihat-store-core':
+        specifier: file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz
+      '@hathq/projection-contracts':
+        specifier: file:../../../../../../../.artifacts/npm/146f42cb5ee9ee48f13ec79c2216bcf90a1d45b1d3ae66d0549074a55f7c2c97/hathq-projection-contracts-0.10.0.tgz
+        version: file:../../../../../../../.artifacts/npm/146f42cb5ee9ee48f13ec79c2216bcf90a1d45b1d3ae66d0549074a55f7c2c97/hathq-projection-contracts-0.10.0.tgz
+
+packages:
+
+  '@hathq/ihat-store-core@file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz':
+    resolution: {integrity: sha512-DLh6xi2MjeJFP6AbEPOXjZGtOuIJp+/fWHp5sbtmDK6kg4sf0Y4EX8CLjoS7wPnMcfXf9Sl+tP12GHuHs89zpw==, tarball: file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz}
+    version: 0.10.0
+
+  '@hathq/projection-contracts@file:../../../../../../../.artifacts/npm/146f42cb5ee9ee48f13ec79c2216bcf90a1d45b1d3ae66d0549074a55f7c2c97/hathq-projection-contracts-0.10.0.tgz':
+    resolution: {integrity: sha512-lj1r85aJAWguq3hDNx9ComCHZPuZcPYrQvt8M1DV5dfQt6cDApFZ9b037/f+yCL3I/BhncsyNC2qfAhrGrAdmQ==, tarball: file:../../../../../../../.artifacts/npm/146f42cb5ee9ee48f13ec79c2216bcf90a1d45b1d3ae66d0549074a55f7c2c97/hathq-projection-contracts-0.10.0.tgz}
+    version: 0.10.0
+    engines: {node: '>=22'}
+
+  '@zixcel/interaction@file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz':
+    resolution: {integrity: sha512-3XOHU/VPEGosjHRfEC1DMta6P8s3w6NTum1dzWzOfn2aCK6GoKWzZtjQLWer/YyxwroBZh6vLWVgrDFsk2fEMA==, tarball: file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz}
+    version: 0.10.0
+
+  ohash@2.0.11:
+    resolution: {integrity: sha512-RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==}
+
+snapshots:
+
+  '@hathq/ihat-store-core@file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz': {}
+
+  '@hathq/projection-contracts@file:../../../../../../../.artifacts/npm/146f42cb5ee9ee48f13ec79c2216bcf90a1d45b1d3ae66d0549074a55f7c2c97/hathq-projection-contracts-0.10.0.tgz':
+    dependencies:
+      '@zixcel/interaction': file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz
+      ohash: 2.0.11
+
+  '@zixcel/interaction@file:../../../../../../../.artifacts/npm/1c2d6e15a4212e2459887589f3e79781a9902f0ebbf44f12dc76bd75e82efa66/zixcel-interaction-0.10.0.tgz': {}
+
+  ohash@2.0.11: {}

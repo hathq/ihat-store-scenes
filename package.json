@@ -1,0 +1,20 @@
+{
+  "name": "@hathq/ihat-store-scenes",
+  "version": "0.10.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "LICENSE-PREVIOUS"
+  ],
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "dependencies": {
+    "@hathq/ihat-store-core": "file:../../../../../../../.artifacts/npm/c2348172aec62db7bba5463a22a90f98a5332a74645205be308e8cb7e282d344/hathq-ihat-store-core-0.10.0.tgz",
+    "@hathq/projection-contracts": "file:../../../../../../../.artifacts/npm/146f42cb5ee9ee48f13ec79c2216bcf90a1d45b1d3ae66d0549074a55f7c2c97/hathq-projection-contracts-0.10.0.tgz"
+  }
+}
